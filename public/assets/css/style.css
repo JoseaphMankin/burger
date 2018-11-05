@@ -1,3 +1,9 @@
+h1{
+  text-align: center;
+  width: 100%;
+  margin: 5px;
+}
+
 li {
   padding: 5px;
   margin: 5px;
