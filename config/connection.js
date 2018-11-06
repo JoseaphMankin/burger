@@ -2,12 +2,20 @@
 var mysql = require("mysql");
 
 var connection = mysql.createConnection({
-  host: "localhost" || "tkck4yllxdrw0bhi.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+  host: "tkck4yllxdrw0bhi.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
   port: 3306,
-  user: "root" || "ourrfenrsc80ntmo",
-  password: "" || "okufr1m2hhbwfgvq",
-  database: "burgers_db" || "yv6cvgcys5e4gkpj"
+  user: "ourrfenrsc80ntmo",
+  password: "okufr1m2hhbwfgvq",
+  database: "yv6cvgcys5e4gkpj"
 });
+
+// var connection = mysql.createConnection({
+//   host: "localhost",
+//   port: 3306,
+//   user: "root",
+//   password: "",
+//   database: "burgers_db"
+// });
 
 // Make connection.
 connection.connect(function(err) {
