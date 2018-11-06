@@ -1,9 +1,16 @@
-<h1>Burgers!</h1>
+<h1>It's Burger Time!</h1>
 
 <div class="container">
   <div class="row">
     <div class="col-4">
       <h2>Burgers Ready to Eat!</h2>
+      <div class="row">
+        <div class="col-12">
+          <div class="burgerTop"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
       <ul>
         {{#each burgers}}
         {{#unless devoured}}
@@ -11,6 +18,13 @@
         {{/unless}}
         {{/each}}
       </ul>
+      </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="burgerBottom"></div>
+        </div>
+      </div>
     </div>
     <div class="col-4">
 
