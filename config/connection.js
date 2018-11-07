@@ -1,21 +1,14 @@
 // Set up MySQL connection.
+require('dotenv').config();
 var mysql = require("mysql");
 
 var connection = mysql.createConnection({
-  host: "tkck4yllxdrw0bhi.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
-  port: 3306,
-  user: "ourrfenrsc80ntmo",
-  password: "okufr1m2hhbwfgvq",
-  database: "yv6cvgcys5e4gkpj"
+  host: process.env.SQL_HOST,
+  port: process.env.SQL_PORT,
+  user: process.env.SQL_USER,
+  password: process.env.SQL_PASSWORD,
+  database: process.env.SQL_DATABASE
 });
-
-// var connection = mysql.createConnection({
-//   host: "localhost",
-//   port: 3306,
-//   user: "root",
-//   password: "",
-//   database: "burgers_db"
-// });
 
 // Make connection.
 connection.connect(function(err) {
