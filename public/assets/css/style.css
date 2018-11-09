@@ -46,7 +46,7 @@ li {
   margin-bottom: 5px;
 }
 
-/* .burgerTop{
+.burgerTop{
   background-image: URL(../images/burgertop.png);
   background-size:cover;
   width: 100%;
@@ -55,7 +55,7 @@ li {
   background-position: center center;
   margin-top: 0px;
   padding: 5px auto;
-} */
+}
 
 .burgerBottom{
  
