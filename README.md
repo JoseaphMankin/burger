@@ -12,7 +12,7 @@ The application demonstrates the ability to use [Express](https://expressjs.com/
 - What is the direct link to the project?
   * The code is hosted here: [burger](https://github.com/JoseaphMankin/burger).
 
-![Alt text](app/public/images/burgerScreenShot.png?raw=true "Burger Screenshot")
+![Alt text](/public/assets/images/burgerScreenShot.png?raw=true "Burger Screenshot")
 
 ## Installation
 
