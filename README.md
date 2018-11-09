@@ -3,6 +3,8 @@ Week 14 Handlebars Assignment
 
 ## Description
 
+Simple application where users can create, "devour" and delete Burgers. Persistance maintained through MYSQL/JawsDB Database.
+
 The application demonstrates the ability to use [Express](https://expressjs.com/) with a [Node.js](https://nodejs.org/en/) server while utilizing [Handlebars](https://handlebarsjs.com/) Template Views with [Bootstrap](https://getbootstrap.com/) CSS framework on the front end.
 
 ## Demo
